@@ -20,7 +20,7 @@ class _LoginState extends State<Login> {
   TextEditingController password=TextEditingController();
   bool isvisible=true;
    FirebaseAuth auth =FirebaseAuth.instance;
-   final firestore = FirebaseFirestore.instance.collection("users");
+   final firestore = FirebaseFirestore.instance.collection("Users");
   var _formKey = GlobalKey<FormState>();
 
   @override

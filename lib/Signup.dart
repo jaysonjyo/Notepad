@@ -23,7 +23,7 @@ class _SignupState extends State<Signup> {
   bool isvisible1 = true;
   bool isvisible2 = true;
   FirebaseAuth auth =FirebaseAuth.instance;
-  final firestore = FirebaseFirestore.instance.collection("users");
+  final firestore = FirebaseFirestore.instance.collection("Users");
   var _formKey = GlobalKey<FormState>();
 
 
